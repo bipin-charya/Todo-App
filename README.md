@@ -1,3 +1,6 @@
+# Use of useContext
+- first we create Context and then we use "useContext" to declare variable globally so that components can access it directly without making any unnecessary data passing/handling by outer components
+
 # Use of LocalStorage
 - As items store in localstorage are in strings : JSON.parse(localStorage.getItem("keys"))
 - set Items to store in localstorage: localStorage.setItem("keys", value)
